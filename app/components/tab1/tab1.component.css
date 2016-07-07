@@ -1,0 +1,10 @@
+.list-item{
+    height: 100;
+    margin: 10 0;
+    background-color: bisque;
+}
+
+.list-header{
+    height: 160;
+    background-color: #eaeaea;
+}

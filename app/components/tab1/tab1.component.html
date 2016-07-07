@@ -1,0 +1,17 @@
+<RadListView
+    [items]="listData">
+
+  <template
+      listItemTemplate 
+      let-item="item">
+    <GridLayout class="list-item">
+      <Label [text]="item.text"></Label>
+    </GridLayout>
+  </template>
+
+  <template listViewHeader>
+    <GridLayout class="list-header">
+      <Label text="This is header."></Label>
+    </GridLayout>
+  </template>
+</RadListView>
